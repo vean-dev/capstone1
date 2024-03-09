@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="index.css">
+    
+	<title>Vean Angelo Ramos</title>
+    
+</head>
+
+<body>
+  <header>
+		<div class="container">
+			<h2></h2>
+			<nav>
+				<a href="#landing">Home</a>
+				<a href="#projects">Projects</a>
+				<a href="#tools">Tools</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav">
+		<a href="#landing">Home</a>
+		<a href="#projects">Projects</a>
+		<a href="#tools">Tools</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	<main>
+		<section class="banner" id="landing">
+			<div class="container">
+				<h1>
+					Hi, Im Vean a<br class="hide-mob" />
+					<span>Full-stack</span> Web Developer.
+				</h1>
+
+				<h3>Design, Code and Debug</h3>
+
+				<a href="#contact" class="button">Contact us</a>
+			</div>
+
+		</section>
+
+    <!-- Projects page -->
+    <section class="projects" id="projects">
+			<div >
+				<h2 class="text-center mb-4">Projects</h2>
+					<div class="card" style="width: 18rem;">
+						<img src="https://placehold.co/600x400" class="card-img-top" alt="...">
+						<div class="card-body">
+						<h5 class="card-title">Zuitt Capstone Project</h5>
+						<p class="card-text">This project is a Full-stack E-commerce web app.</p>
+						<a href="" class="btn">View on GitHub</a>
+						</div>
+					</div>
+			</div>
+		</section>
+
+	<!-- Tools page -->
+
+	<section class="tools" id="tools">
+
+		<h2 class="text-center mb-4">Tools</h2>
+
+		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+				<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="7" aria-label="Slide 8"></button>
+			</div>
+	
+			<!-- HTML Slide -->
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="3000">
+					<img src="./img/html.png" class="mx-auto d-block img-fluid w-80" alt="html icon">
+					<div class="carousel-caption text-center">
+						<h5 class="fs-4">HTML 5</h5>
+						<p class="fs-6">To develop web pages and web applications that run on web browsers.</p>
+					</div>
+				</div>
+			<!-- CSS Slide -->
+				<div class="carousel-item" data-bs-interval="3000">
+					<img src="./img/css.png" class="mx-auto d-block img-fluid w-80" alt="css icon">
+					<div class="carousel-caption text-center">
+						<h5 class="fs-4">CSS 3</h5>
+						<p class="fs-6">For defining the look and formatting elements of Web documents such as the layout, colors, and fonts</p>
+					</div>
+				</div>
+			<!-- Javascript Slide -->
+				<div class="carousel-item" data-bs-interval="3000">
+					<img src="./img/javascript.png" class="mx-auto d-block img-fluid w-80" alt="javascript icon">
+					<div class="carousel-caption text-center">
+						<h5 class="fs-4">Javascript</h5>
+						<p class="fs-6">A programming language used to create dynamic content for websites.</p>
+					</div>
+				</div>
+
+			<!-- Bootstrap Slide -->
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="./img/bootstrap.png" class="mx-auto d-block img-fluid w-80" alt="bootstrap icon">
+				<div class="carousel-caption text-center">
+					<h5 class="fs-4">Bootstrap</h5>
+					<p class="fs-6">A free, open source front-end development framework for the creation of websites and web apps.</p>
+				</div>
+			</div>
+			<!-- ExpressJS Slide -->
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="./img/express.png" class="mx-auto d-block img-fluid w-80" alt="Express.JS icon">
+				<div class="carousel-caption text-center">
+					<h5 class="fs-4">Express.JS</h5>
+					<p class="fs-6">Some representative placeholder content for the third slide.</p>
+				</div>
+			</div>
+			<!-- NodeJS Slide -->
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="./img/node.png" class="mx-auto d-block img-fluid w-80" alt="Node.JS icon">
+				<div class="carousel-caption text-center">
+					<h5 class="fs-4">Node.JS</h5>
+					<p class="fs-6">Some representative placeholder content for the third slide.</p>
+				</div>
+			</div>
+			<!-- ReactJS Slide -->
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="./img/react-js.png" class="mx-auto d-block img-fluid w-80" alt="React.JS icon">
+				<div class="carousel-caption text-center">
+					<h5 class="fs-4">React.JS</h5>
+					<p class="fs-6">Some representative placeholder content for the third slide.</p>
+				</div>
+			</div>
+			<!-- MongoDB Slide -->
+			<div class="carousel-item" data-bs-interval="3000">
+				<img src="./img/MongoDB_Logo.png" class="mx-auto d-block img-fluid w-80" alt="MongoDB icon">
+				<div class="carousel-caption text-center">
+					<h5 class="fs-4">MongoDB</h5>
+					<p class="fs-6">Some representative placeholder content for the third slide.</p>
+				</div>
+			</div>
+		</div>
+	
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+	
+    <!-- Contact page -->
+    <section class="contact" id="contact">
+			<div class="container">
+				<h2 class="text-center mb-4">Contact</h2>
+				
+				<form>
+					<div class="form-grid">
+						<input type="text" name="name" id="name" placeholder="Name" class="form-element" />
+						<input type="email" name="email" id="email" placeholder="Email" class="form-element" />
+						<textarea name="message" id="message" placeholder="Messsage" class="form-area"></textarea>
+						<input type="submit" value="Send message" class="button" />
+					</div>
+				</form>
+			</div>
+		</section>
+
+	<!-- Footer -->
+
+	<section class="footer" id="footer">
+		<div></div>	
+			<a href="https://www.facebook.com/veanramos.official.account" class="fa-brands fa-facebook fa-2x"></a>
+			<a href="https://www.linkedin.com/in/vean-angelo-ramos\" class="fa-brands fa-linkedin fa-2x"></a>
+			<a href="https://www.discordapp.com/users/898215287093100554" class="fa-brands fa-discord fa-2x"></a>
+			<a href="https://t.me/SV_LTL" class="fa-brands fa-telegram fa-2x"></a>
+			<h3 >Contact me on:</h3>
+		</div>
+		<div class="copyright">Copyright &#169 2024 Vean Angelo Ramos</div>
+	</section>
+  </main>
+    
+</body>
+
+
+<script src="./index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/aec3aa2482.js" crossorigin="anonymous"></script>
+
+
+</html>
