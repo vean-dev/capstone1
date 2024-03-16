@@ -191,7 +191,7 @@ header {
 			}
 
 			a {
-				color: inherit;
+				color: white;
 				font-size: 20px;
 				text-decoration: none;
 			}
@@ -318,69 +318,55 @@ section.banner {
 
 
 /* Contact */
+.contact-container {
+	padding-top: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: #303030;
 
-#contact {
-    background-color: #303030;
+}
+.form-title h1{
+	margin-top: auto;
+	color: white;
+	text-align: center;
+}
+.contact-form {
+	display: block;
+    margin: 0 auto;
+	display: grid;
+    grid-gap: 25px;
+    margin-bottom: 1px;
+}
+.form-input {
+	appearance: none;
+	border: none;
+	outline: none;
+	display: block;
+	width: 650px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	padding: 16px;
+	font-size: 18px;
+	color: #000000;
 
-    .container {
-        padding-top: 64px;
-        padding-bottom: 10px;
-
-        h2 {
-            color: #FFF;
-        }
-
-        form {
-            display: block;
-            margin: 0 auto;
-            max-width: 650px;
-
-            .form-grid {
-                display: grid;
-                grid-gap: 25px;
-                margin-bottom: 16px;
-
-                @media (max-width: 767px) {
-                    grid-template-columns: 1fr;
-                }
-
-                .form-element, .form-area {
-                    appearance: none;
-                    border: none;
-                    outline: none;
-                    background: none;
-
-                    display: block;
-                    width: 100%;
-                    background-color: #ffffff;
-                    border-radius: 8px;
-
-                    padding: 16px;
-                    font-size: 20px;
-                    color: #000000;
-
-                    &::placeholder {
-                        color: #AAA;
-                    }
-                }
-
-                .form-area {
-                    grid-column: 1/-1;
-                }
-            }
-        }
-    }
+}
+.form-input:focus {
+	border: 1px solid #ff3c00;
 }
 
+@media (max-width:700px) {
+	.contact-form {
+		grid-gap: 12px;
+	}
+	.form-input{
 
-@media (max-width: 767px) {
-.hide-mob {
-    display: none;
+		width: 300px;
+	}
 }
-}
+
 
 /* footer */
-
 #footer {
 	color: #ffffff;
 	background-color: #303030;

@@ -164,19 +164,21 @@
 	</section>
 	
     <!-- Contact page -->
-    <section class="contact" id="contact">
-			<div class="container">
-				<h2 class="text-center mb-4">Contact</h2>
+    <section id="contact">
+			<div class="contact-container">
 				
-				<form>
-					<div class="form-grid">
-						<input type="text" name="name" id="name" placeholder="Name" class="form-element" />
-						<input type="email" name="email" id="email" placeholder="Email" class="form-element" />
-						<textarea name="message" id="message" placeholder="Messsage" class="form-area"></textarea>
+				<form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+					<div class="form-title"><h1>Contact</h1></div>
+						<input type="hidden" name="access_key" value="9c276de6-0a91-4bd1-8cf2-96a51c9e362a">
+						<input type="text" name="name" id="name" placeholder="Name" class="form-input" required/>
+						<input type="email" name="email" id="email" placeholder="Email" class="form-input" re/>
+						<textarea name="message" id="message" placeholder="Messsage" class="form-input"></textarea>
 						<input type="submit" value="Send message" class="button" />
-					</div>
 				</form>
 			</div>
+				
+				
+			
 		</section>
 
 	<!-- Footer -->
